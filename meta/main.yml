@@ -2,7 +2,7 @@
 galaxy_info:
   role_name: jq
   author: Ali Muhammad
-  description: 'jq' package installation/uninstallation to perform json parsing.
+  description: jq package installation/uninstallation to perform json parsing.
   company: none
   license: MIT
   min_ansible_version: 2.4
