@@ -1,0 +1,8 @@
+---
+# tasks file for jq - EL family
+
+- name: "Installing {{ jq_app }} on EL based systems."
+  yum:
+    name: "{{ jq_app }}"
+    state: "{{ jq_desired_state }}"
+    update_cache: yes
