@@ -2,7 +2,7 @@
 
 # Ansible Role: jq
 
-Role to install (_by default_) `jq` package or uninstall (_if passed as var_) on **Ubuntu** and **CentOS** systems.
+Role to install (_by default_) [jq](https://github.com/stedolan/jq) package or uninstall (_if passed as var_) on **Debian** family and **EL** family systems.
 
 ## Requirements
 
