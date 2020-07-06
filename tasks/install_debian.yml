@@ -1,7 +1,7 @@
 ---
-# tasks file for jq - Debian family
+# tasks file for jq - Debian/Ubuntu Family
 
-- name: "Installing {{ jq_app }} on Debian based systems."
+- name: Debian/Ubuntu Family | Installing {{ jq_app }}
   apt:
     name: "{{ jq_app }}"
     state: "{{ jq_desired_state }}"

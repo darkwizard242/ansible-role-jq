@@ -1,7 +1,7 @@
 ---
-# tasks file for jq - EL family
+# tasks file for jq - EL Family
 
-- name: "Installing {{ jq_app }} on EL based systems."
+- name: EL Family | Installing {{ jq_app }}
   yum:
     name: "{{ jq_app }}"
     state: "{{ jq_desired_state }}"
