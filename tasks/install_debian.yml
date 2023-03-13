@@ -2,7 +2,7 @@
 # tasks file for jq - Debian/Ubuntu Family
 
 - name: Debian/Ubuntu Family | Installing {{ jq_app }}
-  apt:
+  ansible.builtin.apt:
     name: "{{ jq_app }}"
     state: "{{ jq_desired_state }}"
     force_apt_get: yes
