@@ -2,7 +2,7 @@
 # tasks file for jq - EL Family
 
 - name: EL Family | Installing {{ jq_app }}
-  yum:
+  ansible.builtin.yum:
     name: "{{ jq_app }}"
     state: "{{ jq_desired_state }}"
     update_cache: yes
