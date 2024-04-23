@@ -13,10 +13,10 @@ on:
       - 'hotfix*'
       - 'master'
   schedule:
-    - cron: '0 18 * * *'
+    - cron: '0 20 * * *'
 
 env:
-  CUSTOM_DIR: 'darkwizard242.jq
+  CUSTOM_DIR: 'darkwizard242.jq'
 
 jobs:
 
